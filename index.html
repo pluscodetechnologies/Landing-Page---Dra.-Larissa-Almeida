@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Larissa Almeida · Odontologia Premium</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container header-flex">
+            <div class="logo"><a href="#">Dra. Larissa <span>Almeida</span></a></div>
+            <button class="menu-toggle" id="menuToggle"><i class="fas fa-bars"></i></button>
+            <nav class="nav-menu">
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#antes-depois">Antes/Depois</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                <a href="https://wa.me/5511999999999?text=Olá%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar"
+                    target="_blank" class="btn-whatsapp-header"><i class="fab fa-whatsapp"></i> Agendar no WhatsApp</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="container hero-grid">
+            <div>
+                <h1>Seu sorriso merece <span>cuidado e beleza</span></h1>
+                <p class="hero-sub">Atendimento humanizado em Jardim América, São Paulo. Avaliação completa e planos
+                    personalizados.</p>
+                <div class="hero-btns">
+                    <a href="https://wa.me/5511999999999?text=Olá%2C%20gostaria%20de%20agendar%20uma%20avaliação"
+                        target="_blank" class="btn-primary"><i class="fab fa-whatsapp"></i> Agendar no WhatsApp</a>
+                    <a href="#especialidades" class="btn-outline">Ver especialidades</a>
+                </div>
+                <div class="hero-diffs">
+                    <div class="diff-item"><i class="fas fa-calendar-check"></i> +12 anos de experiência</div>
+                    <div class="diff-item"><i class="fas fa-heart"></i> Atendimento acolhedor</div>
+                    <div class="diff-item"><i class="fas fa-credit-card"></i> Parcelamento em até 12x</div>
+                </div>
+            </div>
+            <div class="hero-image" aria-label="Dra. Larissa em consultório"></div>
+        </div>
+    </section>
+
+    <div class="trust-bar">
+        <div class="container trust-flex">
+            <div class="trust-item"><span class="number">+2.500</span> <span class="label">pacientes</span></div>
+            <div class="trust-item"><span class="number">★ 4,9</span> <span class="label">Google Reviews</span></div>
+            <div class="trust-item"><span class="number">15+</span> <span class="label">convênios</span></div>
+            <div class="trust-item"><span class="number">100%</span> <span class="label">satisfação</span></div>
+        </div>
+    </div>
+
+    <section class="container" id="especialidades">
+        <h2 class="section-title">Nossas especialidades</h2>
+        <p class="section-sub">Tecnologia e cuidado em cada procedimento</p>
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-tooth"></i></div>
+                <h3>Limpeza e prevenção</h3>
+                <p>Remoção de tártaro e profilaxia para um sorriso saudável e brilhante.</p><a href="#"
+                    class="card-link" data-procedimento="Limpeza">Quero saber valores <i
+                        class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-sun"></i></div>
+                <h3>Clareamento dental</h3>
+                <p>Técnicas rápidas com resultados naturais e duradouros.</p><a href="#" class="card-link"
+                    data-procedimento="Clareamento">Quero saber valores <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-gem"></i></div>
+                <h3>Lentes de resina/porcelana</h3>
+                <p>Transformação estética com mínimo desgaste e máximo naturalidade.</p><a href="#" class="card-link"
+                    data-procedimento="Lentes">Quero saber valores <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fa-solid fa-notes-medical"></i></div>
+                <h3>Implantes dentários</h3>
+                <p>Substituição de dentes com segurança e estética.</p><a href="#" class="card-link"
+                    data-procedimento="Implante">Quero saber valores <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fa-solid fa-user-doctor"></i></div>
+                <h3>Ortodontia</h3>
+                <p>Aparelhos e alinhadores invisíveis para todas as idades.</p><a href="#" class="card-link"
+                    data-procedimento="Ortodontia">Quero saber valores <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-face-smile"></i></div>
+                <h3>Harmonização orofacial</h3>
+                <p>Equilíbrio da face com procedimentos minimamente invasivos.</p><a href="#" class="card-link"
+                    data-procedimento="Harmonização">Quero saber valores <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="steps">
+        <div class="container">
+            <h2 class="section-title center" style="text-align:center;">Como funciona</h2>
+            <p class="section-sub center" style="text-align:center;">Seu caminho para o sorriso dos sonhos</p>
+            <div class="steps-grid">
+                <div class="step-item">
+                    <div class="step-num">1</div>
+                    <h4>Você chama no WhatsApp</h4>
+                    <p>Conte o que busca e tire dúvidas iniciais.</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-num">2</div>
+                    <h4>Triagem e horário</h4>
+                    <p>A gente confirma o melhor horário para você.</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-num">3</div>
+                    <h4>Consulta/avaliação</h4>
+                    <p>Você faz a avaliação e recebe o plano personalizado.</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-num">4</div>
+                    <h4>Tratamento + acompanhamento</h4>
+                    <p>Acompanhamento transparente e opções de pagamento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container" id="antes-depois">
+        <h2 class="section-title">Antes e Depois</h2>
+        <p class="section-sub">Resultados de pacientes</p>
+        <div class="gallery-grid">
+            <div class="gallery-item"
+                style="background-image:url('https://img.freepik.com/fotos-premium/dentes-antes-e-depois-do-clareamento-sobre-fundo-branco-paciente-da-clinica-odontologica-a-imagem-simboliza-odontologia-de-higiene-bucal-estomatologia_168410-1798.jpg')">
+            </div>
+            <div class="gallery-item"
+                style="background-image:url('https://img.freepik.com/fotos-premium/dentes-de-mulher-antes-e-depois-do-clareamento-mulher-sorridente-feliz-conceito-de-saude-bucal-conceito-de-cuidados-bucais_416530-33209.jpg?semt=ais_user_personalization&w=740&q=80')">
+            </div>
+            <div class="gallery-item"
+                style="background-image:url('https://img.freepik.com/fotos-premium/antes-e-depois-da-fixacao-para-grande-lacuna-entre-os-dentes-dianteiros-ou-incisivos-diastema_778980-7148.jpg?semt=ais_hybrid&w=740&q=80')">
+            </div>
+            <div class="gallery-item"
+                style="background-image:url('https://img.freepik.com/fotos-premium/sorrir-antes-e-depois-de-usar-o-agente-branqueador-a-pasta-de-dentes-a-limpeza-profissional-dos-dentes_1356031-15049.jpg?semt=ais_hybrid&w=740&q=80')">
+            </div>
+            <div class="gallery-item"
+                style="background-image:url('https://img.freepik.com/fotos-premium/dentes-do-homem-antes-e-depois-do-branqueamento_1221914-9300.jpg?semt=ais_hybrid&w=740&q=80')">
+            </div>
+            <div class="gallery-item"
+                style="background-image:url('https://img.freepik.com/fotos-premium/transformacao-dentaria-mostrando-o-processo_1036468-14507.jpg?semt=ais_hybrid&w=740&q=80')">
+            </div>
+        </div>
+        <div class="gallery-note"><i class="fas fa-info-circle"></i> Imagens ilustrativas para preservar a privacidade dos pacientes. Foco em exibir o que foi desenvolvido pela equipe PlusCode, mantendo a exclusividade do site da cliente.</div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="depoimentos">
+        <div class="container">
+            <h2 class="section-title center" style="text-align:center;">O que nossos pacientes dizem</h2>
+            <p class="section-sub center" style="text-align:center;">Histórias reais de quem confiou no nosso trabalho
+            </p>
+            <div class="cards-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>“Atendimento incrível, me senti muito acolhida desde a primeira consulta. Resultado superou
+                        expectativas!”</p>
+                    <div class="author">Mariana S. <span>· Clareamento</span></div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>“Profissional competente e muito cuidadosa. Explica tudo com detalhes e transmite segurança.”</p>
+                    <div class="author">Carlos P. <span>· Implante</span></div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>“Excelente estrutura e equipamentos modernos. A Dra. Larissa é muito atenciosa e dedicada.”</p>
+                    <div class="author">Fernanda L. <span>· Lentes</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container" id="sobre">
+        <div class="about-grid">
+            <div class="about-img" aria-label="Dra. Larissa"></div>
+            <div>
+                <h2 class="section-title">Dra. Larissa Almeida</h2>
+                <p><strong>Cirurgiã-dentista</strong> formada pela Universidade de São Paulo (USP), especialista em
+                    Estética e Harmonização Orofacial. Há mais de 12 anos transforma sorrisos com atendimento
+                    personalizado, sem pressa e focado no bem-estar.</p>
+                <div class="cro-number">CRO: SP 123.456 (demonstrativo)</div>
+                <p>Acredita que cada sorriso tem uma história e merece um plano de tratamento único, aliando técnica e
+                    arte.</p>
+                <div class="clinic-photos">
+                    <div class="clinic-photo"
+                        style="background-image:url('https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80')">
+                        <span class="label">Ambiente esterilizado</span></div>
+                    <div class="clinic-photo"
+                        style="background-image:url('https://plus.unsplash.com/premium_photo-1673728800262-2acd6a815a2c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
+                        <span class="label">Equipamentos modernos</span></div>
+                    <div class="clinic-photo"
+                        style="background-image:url('https://images.unsplash.com/photo-1629909615184-74f495363b67?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
+                        <span class="label">Localização fácil</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container" style="margin: 80px auto;">
+        <h2 class="section-title center" style="text-align:center;">Perguntas frequentes</h2>
+        <div class="faq-list">
+            <div class="faq-item">
+                <div class="faq-question">Clareamento dental dói? <i class="fas fa-chevron-down"></i></div>
+                <div class="faq-answer">Pode causar sensibilidade temporária, mas utilizamos técnicas e produtos que
+                    minimizam o desconforto. A maioria dos pacientes não sente dor.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Quanto tempo dura o clareamento? <i class="fas fa-chevron-down"></i></div>
+                <div class="faq-answer">Com bons hábitos, dura de 1 a 3 anos. Recomendamos manutenção anual para
+                    preservar o resultado.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Aceita convênio? <i class="fas fa-chevron-down"></i></div>
+                <div class="faq-answer">Trabalhamos com particular e convênios selecionados. Entre em contato para
+                    consultar se o seu convênio é aceito.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Tem estacionamento? <i class="fas fa-chevron-down"></i></div>
+                <div class="faq-answer">Sim, temos convênio com estacionamento próximo ao consultório, com desconto para
+                    pacientes.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Formas de pagamento? <i class="fas fa-chevron-down"></i></div>
+                <div class="faq-answer">Aceitamos cartões de crédito (à vista ou parcelado), débito, PIX e transferência
+                    bancária.</div>
+            </div>
+        </div>
+    </section>
+
+   
+<section class="container" id="contato">
+    <div class="contact-grid">
+        <div>
+            <h2 class="section-title" style="margin-top:0;">Entre em contato</h2>
+            <div class="info-item">
+                <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div><strong>Endereço</strong><br>Rua das Flores, 123 - Jardim América, São Paulo - SP</div>
+            </div>
+            <div class="info-item">
+                <div class="info-icon"><i class="fas fa-clock"></i></div>
+                <div><strong>Horários</strong><br>Seg a Sex: 9h às 19h | Sáb: 9h às 14h</div>
+            </div>
+            <div class="info-item">
+                <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+                <div><strong>Telefone / WhatsApp</strong><br>(11) 99999-9999</div>
+            </div>
+
+    
+            <div style="margin: 30px 0; border-radius: 30px; overflow: hidden; box-shadow: var(--sombra-media); border: 4px solid var(--branco);">
+                <iframe
+                    width="100%"
+                    height="300"
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0"
+                    src="https://www.openstreetmap.org/export/embed.html?bbox=-46.696%2C-23.585%2C-46.676%2C-23.575&layer=mapnik&marker=-23.580%2C-46.686"
+                    style="border:0; display:block;"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div style="text-align: right; margin-top: 5px; font-size: 0.85rem;">
+                <a href="https://www.openstreetmap.org/?mlat=-23.580&mlon=-46.686#map=16/-23.580/-46.686" target="_blank" style="color: var(--rosa-escuro); text-decoration: none; font-weight: 500;">
+                    <i class="fas fa-external-link-alt"></i> Ver mapa ampliado
+                </a>
+            </div>
+
+            <div style="margin: 30px 0; display: flex; gap: 15px; flex-wrap: wrap;">
+                <a href="#" class="btn-primary" style="padding: 14px 28px;"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                <a href="#" class="btn-outline" style="padding: 14px 28px;">Ligar</a>
+                <a href="#" class="btn-outline" style="padding: 14px 28px;">Como chegar</a>
+            </div>
+        </div>
+        <div>
+            <h3 style="font-family: 'Playfair Display', serif; color: var(--cinza-escuro); margin-bottom: 30px;">Envie sua mensagem</h3>
+            <form id="contactForm">
+                <div class="form-group"><input type="text" id="nome" placeholder="Seu nome completo" required></div>
+                <div class="form-group"><input type="tel" id="whatsapp" placeholder="WhatsApp com DDD" required></div>
+                <div class="form-group">
+                    <select id="procedimento">
+                        <option value="">Procedimento de interesse</option>
+                        <option>Limpeza</option>
+                        <option>Clareamento</option>
+                        <option>Lentes</option>
+                        <option>Implantes</option>
+                        <option>Ortodontia</option>
+                        <option>Harmonização</option>
+                    </select>
+                </div>
+                <div class="form-group"><textarea id="mensagem" rows="4" placeholder="Sua mensagem (opcional)"></textarea></div>
+                <button type="submit" class="btn-form"><i class="fab fa-whatsapp"></i> Enviar para WhatsApp</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<div class="portfolio-notice">
+    <i class="fas fa-info-circle"></i>
+    <span>Todas as imagens, nomes e dados são fictícios, mantendo a exclusividade do contrato. Desenvolvido por <strong>Plus Code</strong>.</span>
+</div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-logo">
+                    <h3>Dra. Larissa Almeida</h3>
+                    <p>Odontologia com excelência e cuidado humanizado. Transformando sorrisos há mais de 12 anos.</p>
+                    <div class="badge">Qualidade e segurança</div>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-title">Links rápidos</h4>
+                    <ul>
+                        <li><a href="#hero"><i class="fas fa-chevron-right"></i> Início</a></li>
+                        <li><a href="#especialidades"><i class="fas fa-chevron-right"></i> Especialidades</a></li>
+                        <li><a href="#antes-depois"><i class="fas fa-chevron-right"></i> Antes e Depois</a></li>
+                        <li><a href="#depoimentos"><i class="fas fa-chevron-right"></i> Depoimentos</a></li>
+                        <li><a href="#sobre"><i class="fas fa-chevron-right"></i> Sobre</a></li>
+                        <li><a href="#contato"><i class="fas fa-chevron-right"></i> Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4 class="footer-title">Contato</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Rua das Flores, 123 - Jardim América, SP</p>
+                    <p><i class="fas fa-phone-alt"></i> (11) 99999-9999</p>
+                    <p><i class="fas fa-envelope"></i> contato@dralarissa.odonto</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="newsletter">
+                    <h4 class="footer-title">Newsletter</h4>
+                    <p>Receba dicas de saúde bucal e promoções exclusivas.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Seu melhor e-mail">
+                        <button type="submit">Inscrever</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Dra. Larissa Almeida Odontologia. Todos os direitos reservados.</p>
+                <p>Conteúdo demonstrativo de portfólio. Desenvolvido para fins criativos.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/5511999999999?text=Olá%2C%20vim%20pelo%20site" target="_blank" class="whatsapp-float"><i
+            class="fab fa-whatsapp"></i></a>
+    <a href="https://wa.me/5511999999999?text=Olá%2C%20gostaria%20de%20agendar%20agora" target="_blank"
+        class="cta-mobile"><i class="fab fa-whatsapp"></i> Agendar agora</a>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
